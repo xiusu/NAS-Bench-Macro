@@ -1,6 +1,6 @@
 # NAS-Bench-Macro
 
-This repository includes the benchmark and code for NAS-Bench-Macro in paper "Prioritized Architecture Sampling with Monto-Carlo Tree Search", CVPR2021.
+This repository includes the benchmark and code for NAS-Bench-Macro in paper "[Prioritized Architecture Sampling with Monto-Carlo Tree Search](https://arxiv.org/abs/2103.11922)", CVPR2021.
 
 NAS-Bench-Macro is a NAS benchmark on macro search space. The NAS-Bench-Macro consists of 6561 networks and their test accuracies, parameters, and FLOPs on CIFAR-10 dataset.
 
@@ -64,5 +64,10 @@ python collect_benchmark.py
 If you find that NAS-Bench-201 helps your research, please consider citing it:
 
 ```
-
+@article{su2021prioritized,
+  title={Prioritized Architecture Sampling with Monto-Carlo Tree Search},
+  author={Su, Xiu and Huang, Tao and Li, Yanxi and You, Shan and Wang, Fei and Qian, Chen and Zhang, Changshui and Xu, Chang},
+  journal={arXiv preprint arXiv:2103.11922},
+  year={2021}
+}
 ```
