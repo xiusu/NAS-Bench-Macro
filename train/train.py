@@ -36,6 +36,8 @@ utils.create_exp_dir(args.save, scripts_to_save=None)
 log_format = '%(asctime)s %(message)s'
 logging.basicConfig(stream=sys.stdout, level=logging.INFO,
     format=log_format, datefmt='%m/%d %H:%M:%S')
+if not exist os.path.join(args.save, 'log'):
+    os.mkdir(os.path.join(args.save, 'log'))
 fh = logging.FileHandler(os.path.join(args.save, 'log', '{}.log'.format(utils.get_real_arch(args.arch))))
 fh.setFormatter(logging.Formatter(log_format))
 logging.getLogger().addHandler(fh)
