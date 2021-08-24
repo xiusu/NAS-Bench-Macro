@@ -64,10 +64,11 @@ python collect_benchmark.py
 If you find that NAS-Bench-Macro helps your research, please consider citing it:
 
 ```
-@article{su2021prioritized,
+@inproceedings{su2021prioritized,
   title={Prioritized Architecture Sampling with Monto-Carlo Tree Search},
   author={Su, Xiu and Huang, Tao and Li, Yanxi and You, Shan and Wang, Fei and Qian, Chen and Zhang, Changshui and Xu, Chang},
-  journal={arXiv preprint arXiv:2103.11922},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={10968--10977},
   year={2021}
 }
 ```
